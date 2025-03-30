@@ -75,4 +75,4 @@ def delete_group(group_id):
     return ordered_json_response({}), 204
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=6090, debug=True)
+    app.run(host='0.0.0.0', port=6080, debug=True)
